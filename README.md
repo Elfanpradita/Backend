@@ -24,6 +24,12 @@ docker exec -it pemweb bash
 
 Instalasi ini menggunakan Composer. Proses ini akan mengunduh semua dependensi yang dibutuhkan.
 
+⚠️ **Penting:** Perintah ini akan menginstall composer, tidak perlu lakukan perindah dibawahnya, skip langkah 2 dan langsung ke langkah 3.
+
+```bash
+composer install
+```
+
 ⚠️ **Penting:** Jika direktori kerja Anda (`/var/www/html`) sudah berisi file, hapus terlebih dahulu dengan perintah di bawah ini. Lakukan dengan hati-hati.
 
 ```bash
